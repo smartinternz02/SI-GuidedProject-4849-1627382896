@@ -1,0 +1,28 @@
+body {
+  background-image: url('/static/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+input{
+width: 100%;
+background-color: grey;
+color: white;
+}
+input::placeholder{
+  color: white;
+}
+
+canvas{
+margin-left: 5%;
+}
+
+button{
+width: 50%;
+}
+h1{
+color:white;
+}
+#result_gauge{
+display: none;
+}
